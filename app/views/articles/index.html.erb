@@ -11,6 +11,9 @@
     </tr>
   </thead>
 
+  <%= cl_image_tag("np2nkgwzuphfmuob9db6.jpg",
+      width: 400, height: 300, crop: :fill) %>
+
   <tbody>
     <% @articles.each do |article| %>
       <tr>
